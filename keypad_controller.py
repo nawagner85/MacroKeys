@@ -47,3 +47,10 @@ register_hotkey("shift + window + h", lambda: (print("Lambda for knob_ccw execut
 
 # Keep the script running
 start_checking_hotkeys()
+
+# Infinite loop to keep the application open
+try:
+    while True:
+        sleep(1)
+except KeyboardInterrupt:
+    print("Exiting...")
