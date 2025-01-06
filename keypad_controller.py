@@ -115,6 +115,166 @@ key_mappings = {
         'knob_press': 'alt+up',
         'knob_cw': 'alt+right',
         'knob_ccw': 'alt+left'
+    },
+    'Outlook': {
+        'button1': 'ctrl+shift+m',
+        'button2': 'ctrl+enter',
+        'button3': 'ctrl+r',
+        'knob_press': 'ctrl+shift+k',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'OneNote': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Microsoft Teams': {
+        'button1': 'ctrl+shift+m',
+        'button2': 'ctrl+shift+o',
+        'button3': 'ctrl+shift+k',
+        'knob_press': 'ctrl+e',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'Skype': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'GIMP': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+shift+s',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'VLC Media Player': {
+        'button1': 'space',
+        'button2': 'f',
+        'button3': 'ctrl+up',
+        'knob_press': 'm',
+        'knob_cw': 'ctrl+right',
+        'knob_ccw': 'ctrl+left'
+    },
+    'iTunes': {
+        'button1': 'ctrl+alt+left',
+        'button2': 'ctrl+alt+space',
+        'button3': 'ctrl+alt+right',
+        'knob_press': 'ctrl+alt+m',
+        'knob_cw': 'ctrl+alt+up',
+        'knob_ccw': 'ctrl+alt+down'
+    },
+    'Thunderbird': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Firefox': {
+        'button1': 'ctrl+t',
+        'button2': 'ctrl+r',
+        'button3': 'ctrl+w',
+        'knob_press': 'ctrl+shift+p',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'Opera': {
+        'button1': 'ctrl+t',
+        'button2': 'ctrl+r',
+        'button3': 'ctrl+w',
+        'knob_press': 'ctrl+shift+n',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'Safari': {
+        'button1': 'cmd+t',
+        'button2': 'cmd+r',
+        'button3': 'cmd+w',
+        'knob_press': 'cmd+shift+n',
+        'knob_cw': 'cmd+tab',
+        'knob_ccw': 'cmd+shift+tab'
+    },
+    'Evernote': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Trello': {
+        'button1': 'b',
+        'button2': 'c',
+        'button3': 'd',
+        'knob_press': 'e',
+        'knob_cw': 'f',
+        'knob_ccw': 'g'
+    },
+    'Asana': {
+        'button1': 'tab+q',
+        'button2': 'tab+w',
+        'button3': 'tab+e',
+        'knob_press': 'tab+r',
+        'knob_cw': 'tab+t',
+        'knob_ccw': 'tab+y'
+    },
+    'Jira': {
+        'button1': 'j',
+        'button2': 'k',
+        'button3': 'l',
+        'knob_press': 'm',
+        'knob_cw': 'n',
+        'knob_ccw': 'o'
+    },
+    'GitHub Desktop': {
+        'button1': 'ctrl+shift+a',
+        'button2': 'ctrl+shift+c',
+        'button3': 'ctrl+shift+d',
+        'knob_press': 'ctrl+shift+e',
+        'knob_cw': 'ctrl+shift+f',
+        'knob_ccw': 'ctrl+shift+g'
+    },
+    'Discord': {
+        'button1': 'ctrl+shift+u',
+        'button2': 'ctrl+shift+i',
+        'button3': 'ctrl+shift+o',
+        'knob_press': 'ctrl+shift+p',
+        'knob_cw': 'ctrl+shift+[',
+        'knob_ccw': 'ctrl+shift+]'
+    },
+    'WhatsApp': {
+        'button1': 'ctrl+shift+n',
+        'button2': 'ctrl+shift+m',
+        'button3': 'ctrl+shift+,',
+        'knob_press': 'ctrl+shift+.',
+        'knob_cw': 'ctrl+shift+/',
+        'knob_ccw': 'ctrl+shift+\\'
+    },
+    'Telegram': {
+        'button1': 'ctrl+shift+1',
+        'button2': 'ctrl+shift+2',
+        'button3': 'ctrl+shift+3',
+        'knob_press': 'ctrl+shift+4',
+        'knob_cw': 'ctrl+shift+5',
+        'knob_ccw': 'ctrl+shift+6'
+    },
+    'Signal': {
+        'button1': 'ctrl+shift+7',
+        'button2': 'ctrl+shift+8',
+        'button3': 'ctrl+shift+9',
+        'knob_press': 'ctrl+shift+0',
+        'knob_cw': 'ctrl+shift+-',
+        'knob_ccw': 'ctrl+shift+='
     }
     # Add more applications and their key mappings here
 }
