@@ -35,6 +35,86 @@ key_mappings = {
         'knob_press': 'win+tab',
         'knob_cw': 'alt+tab',
         'knob_ccw': 'shift+alt+tab'
+    },
+    'Visual Studio Code': {
+        'button1': 'ctrl+shift+p',
+        'button2': 'ctrl+b',
+        'button3': 'ctrl+`',
+        'knob_press': 'ctrl+shift+e',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'Microsoft Word': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Microsoft Excel': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Microsoft PowerPoint': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Slack': {
+        'button1': 'ctrl+k',
+        'button2': 'ctrl+t',
+        'button3': 'ctrl+shift+\\',
+        'knob_press': 'ctrl+shift+space',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'Zoom': {
+        'button1': 'alt+a',
+        'button2': 'alt+v',
+        'button3': 'alt+s',
+        'knob_press': 'alt+h',
+        'knob_cw': 'alt+u',
+        'knob_ccw': 'alt+i'
+    },
+    'Adobe Photoshop': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+shift+s',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Adobe Illustrator': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+shift+s',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+]',
+        'knob_ccw': 'ctrl+['
+    },
+    'Notepad++': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+s',
+        'button3': 'ctrl+p',
+        'knob_press': 'ctrl+z',
+        'knob_cw': 'ctrl+tab',
+        'knob_ccw': 'ctrl+shift+tab'
+    },
+    'File Explorer': {
+        'button1': 'ctrl+n',
+        'button2': 'ctrl+w',
+        'button3': 'ctrl+e',
+        'knob_press': 'alt+up',
+        'knob_cw': 'alt+right',
+        'knob_ccw': 'alt+left'
     }
     # Add more applications and their key mappings here
 }
