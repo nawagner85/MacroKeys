@@ -38,12 +38,12 @@ def handle_keypress(key):
                 break
 
 # Set up key listeners
-register_hotkey(['shift', 'win', 'j'], lambda: (print("Lambda for button1 executed"), handle_keypress('button1')))
-register_hotkey(['shift', 'win', 'q'], lambda: (print("Lambda for button2 executed"), handle_keypress('button2')))
-register_hotkey(['shift', 'win', 'y'], lambda: (print("Lambda for button3 executed"), handle_keypress('button3')))
-register_hotkey(['shift', 'win', 'w'], lambda: (print("Lambda for knob_press executed"), handle_keypress('knob_press')))
-register_hotkey(['shift', 'win', 'k'], lambda: (print("Lambda for knob_cw executed"), handle_keypress('knob_cw')))
-register_hotkey(['shift', 'win', 'h'], lambda: (print("Lambda for knob_ccw executed"), handle_keypress('knob_ccw')))
+register_hotkey(['shift', 'win', 'j'], lambda: (print("Lambda for button1 executed"), handle_keypress('button1')), lambda: None)
+register_hotkey(['shift', 'win', 'q'], lambda: (print("Lambda for button2 executed"), handle_keypress('button2')), lambda: None)
+register_hotkey(['shift', 'win', 'y'], lambda: (print("Lambda for button3 executed"), handle_keypress('button3')), lambda: None)
+register_hotkey(['shift', 'win', 'w'], lambda: (print("Lambda for knob_press executed"), handle_keypress('knob_press')), lambda: None)
+register_hotkey(['shift', 'win', 'k'], lambda: (print("Lambda for knob_cw executed"), handle_keypress('knob_cw')), lambda: None)
+register_hotkey(['shift', 'win', 'h'], lambda: (print("Lambda for knob_ccw executed"), handle_keypress('knob_ccw')), lambda: None)
 
 # Keep the script running
 start_checking_hotkeys()
