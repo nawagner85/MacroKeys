@@ -4,7 +4,7 @@ import pygetwindow as gw
 # Define key mappings for different applications
 key_mappings = {
     'Spyder': {
-        'button1': 'ctrl+.',
+        'button1': 'win+shift+j',
         'button2': 'f5',
         'button3': 'ctrl+s',
         'knob_press': 'ctrl+1',
