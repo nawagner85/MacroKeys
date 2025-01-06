@@ -31,7 +31,7 @@ def handle_keypress(key):
     print(f"Key pressed: {key}")
     active_window = get_active_window()
     for app_name, mappings in key_mappings.items():
-        if app_name in active_window:
+        if app_name.lower() in active_window.lower():
             if key in mappings:
                 send_key_combination(mappings[key])
                 break
