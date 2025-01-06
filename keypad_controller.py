@@ -12,6 +12,14 @@ key_mappings = {
         'knob_cw': 'down',
         'knob_ccw': 'up'
     },
+    'Spotify': {
+        'button1': 'media prev track',
+        'button2': 'media play pause',
+        'button3': 'media next track',
+        'knob_press': 'volume mute',
+        'knob_cw': 'volume up',
+        'knob_ccw': 'volume down'
+    },
     'Chrome': {
         'button1': 'alt+left',
         'button2': 'f5',
