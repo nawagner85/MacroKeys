@@ -59,7 +59,11 @@ def handle_keypress(key):
         if app_name.lower() in active_window.lower():
             if key in mappings:
                 send_key_combination(mappings[key])
-                break
+                return
+    # Use default key mappings if no specific application is found
+    default_mappings = key_mappings.get('', {})
+    if key in default_mappings:
+        send_key_combination(default_mappings[key])
 
 # Set up key listeners
 keyboard.add_hotkey("ctrl+alt+f5", lambda: (handle_keypress('button1')), suppress=True, )
