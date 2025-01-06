@@ -13,9 +13,9 @@ key_mappings = {
         'knob_ccw': 'up'
     },
     'Spotify': {
-        'button1': 'media prev track',
-        'button2': 'media play pause',
-        'button3': 'media next track',
+        'button1': 'previous track',
+        'button2': 'play/pause media',
+        'button3': 'next track',
         'knob_press': 'volume mute',
         'knob_cw': 'volume up',
         'knob_ccw': 'volume down'
@@ -28,6 +28,14 @@ key_mappings = {
         'knob_cw': 'page down',
         'knob_ccw': 'page up'
     },
+    '': {
+        'button1': 'win',
+        'button2': 'win+r',
+        'button3': 'win+d',
+        'knob_press': 'win+tab',
+        'knob_cw': 'alt+tab',
+        'knob_ccw': 'shift+alt+tab'
+    }
     # Add more applications and their key mappings here
 }
 
