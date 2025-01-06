@@ -24,11 +24,11 @@ def get_active_window():
 
 def send_key_combination(key_combination):
     """Send a key combination using the keyboard library."""
-    sleep(0.1)
     pyautogui.hotkey(*key_combination.split('+'))
 
 def handle_keypress(key):
     """Handle keypress events and send the appropriate key combination."""
+    # keycode_checker()
     print(f"Key pressed: {key}")
     active_window = get_active_window()
     for app_name, mappings in key_mappings.items():
