@@ -27,18 +27,7 @@ def delete_mapping(app_name):
         del mappings[app_name]
         save_key_mappings(mappings)
 
-def update_mapping(app_name, button1, button2, button3, knob_press, knob_cw, knob_ccw):
-    mappings = load_key_mappings()
-    if app_name in mappings:
-        mappings[app_name] = {
-            'button1': button1,
-            'button2': button2,
-            'button3': button3,
-            'knob_press': knob_press,
-            'knob_cw': knob_cw,
-            'knob_ccw': knob_ccw
-        }
-        save_key_mappings(mappings)
+def create_gui():
     root = Tk()
     root.title("Key Mappings Manager")
 
