@@ -24,6 +24,7 @@ def get_active_window():
 
 def send_key_combination(key_combination):
     """Send a key combination using the keyboard library."""
+    sleep(0.05)
     pyautogui.hotkey(*key_combination.split('+'))
 
 def handle_keypress(key):
