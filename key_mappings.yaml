@@ -1,0 +1,22 @@
+Spyder:
+  button1: 'ctrl+.'
+  button2: 'f5'
+  button3: 'ctrl+s'
+  knob_press: 'ctrl+1'
+  knob_cw: 'down'
+  knob_ccw: 'up'
+Spotify:
+  button1: 'previous track'
+  button2: 'play/pause media'
+  button3: 'next track'
+  knob_press: 'volume mute'
+  knob_cw: 'volume up'
+  knob_ccw: 'volume down'
+Chrome:
+  button1: 'alt+left'
+  button2: 'f5'
+  button3: 'alt+right'
+  knob_press: 'end'
+  knob_cw: 'page down'
+  knob_ccw: 'page up'
+# Add more applications and their key mappings here
