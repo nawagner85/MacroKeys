@@ -33,12 +33,12 @@ def handle_keypress(key):
                 break
 
 # Set up key listeners
-keyboard.add_hotkey('button1', lambda: handle_keypress('button1'))
-keyboard.add_hotkey('button2', lambda: handle_keypress('button2'))
-keyboard.add_hotkey('button3', lambda: handle_keypress('button3'))
-keyboard.add_hotkey('knob_press', lambda: handle_keypress('knob_press'))
-keyboard.add_hotkey('knob_cw', lambda: handle_keypress('knob_cw'))
-keyboard.add_hotkey('knob_ccw', lambda: handle_keypress('knob_ccw'))
+keyboard.add_hotkey('f1', lambda: handle_keypress('button1'))
+keyboard.add_hotkey('f2', lambda: handle_keypress('button2'))
+keyboard.add_hotkey('f3', lambda: handle_keypress('button3'))
+keyboard.add_hotkey('space', lambda: handle_keypress('knob_press'))
+keyboard.add_hotkey('right', lambda: handle_keypress('knob_cw'))
+keyboard.add_hotkey('left', lambda: handle_keypress('knob_ccw'))
 
 # Keep the script running
 keyboard.wait()
