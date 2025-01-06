@@ -1,6 +1,5 @@
 import keyboard
 import pygetwindow as gw
-import pyautogui
 from time import sleep
 
 # Define key mappings for different applications
@@ -24,7 +23,7 @@ def get_active_window():
 
 def send_key_combination(key_combination):
     """Send a key combination using the keyboard library."""
-    pyautogui.hotkey(*key_combination.split('+'))
+    keyboard.send(key_combination)
 
 def handle_keypress(key):
     """Handle keypress events and send the appropriate key combination."""
